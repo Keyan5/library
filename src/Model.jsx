@@ -6,7 +6,8 @@ const Model = ({ setGeometries }) => {
   // const { scene } = useLoader(GLTFLoader, "./library/library.gltf");
   // const { scene, nodes } = useGLTF("./Library/LIBRARY3.0.glb");
   // const { scene, nodes } = useGLTF("./Library/LIBRARYJOINED.glb");
-  const { scene, nodes } = useGLTF("./Library/Library_compressed.glb");
+  // const { scene, nodes } = useGLTF("./Library/Library_compressed.glb");
+  const { scene, nodes } = useGLTF("./Library/library_compressed_1.glb");
   scene.castShadow = true;
   scene.receiveShadow = true;
   // scene.traverse((child) => {
